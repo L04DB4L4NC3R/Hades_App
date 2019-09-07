@@ -1,0 +1,92 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter packages get
+
+## exception
+
+YamlException: Error on line 28, column 3: Expected a key while parsing a block mapping.
+   ╷
+28 │   http: ^0.12.0+1
+   │   ^
+   ╵
+
+```
+#0      Parser._parseBlockMappingKey (package:yaml/src/parser.dart:448:5)
+#1      Parser._stateMachine (package:yaml/src/parser.dart:86:16)
+#2      Parser.parse (package:yaml/src/parser.dart:47:19)
+#3      Loader._loadMapping (package:yaml/src/loader.dart:171:23)
+#4      Loader._loadNode (package:yaml/src/loader.dart:86:16)
+#5      Loader._loadDocument (package:yaml/src/loader.dart:62:20)
+#6      Loader.load (package:yaml/src/loader.dart:54:20)
+#7      loadYamlDocument (package:yaml/yaml.dart:51:25)
+#8      loadYamlNode (package:yaml/yaml.dart:42:5)
+#9      loadYaml (package:yaml/yaml.dart:34:5)
+#10     FlutterManifest.createFromString (package:flutter_tools/src/flutter_manifest.dart:42:28)
+<asynchronous suspension>
+#11     FlutterManifest.createFromPath (package:flutter_tools/src/flutter_manifest.dart:36:12)
+<asynchronous suspension>
+#12     FlutterProject._readManifest (package:flutter_tools/src/project.dart:131:60)
+<asynchronous suspension>
+#13     FlutterProject.fromDirectory (package:flutter_tools/src/project.dart:42:44)
+<asynchronous suspension>
+#14     FlutterProject.fromPath (package:flutter_tools/src/project.dart:57:58)
+#15     PackagesGetCommand.runCommand (package:flutter_tools/src/commands/packages.dart:83:61)
+<asynchronous suspension>
+#16     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:551:18)
+#17     _asyncThenWrapperHelper.<anonymous closure> (dart:async/runtime/libasync_patch.dart:77:64)
+#18     _rootRunUnary (dart:async/zone.dart:1132:38)
+#19     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#20     _FutureListener.handleValue (dart:async/future_impl.dart:126:18)
+#21     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:639:45)
+#22     Future._propagateToListeners (dart:async/future_impl.dart:668:32)
+#23     Future._complete (dart:async/future_impl.dart:473:7)
+#24     _SyncCompleter.complete (dart:async/future_impl.dart:51:12)
+#25     _AsyncAwaitCompleter.complete.<anonymous closure> (dart:async/runtime/libasync_patch.dart:33:20)
+#26     _rootRun (dart:async/zone.dart:1124:13)
+#27     _CustomZone.run (dart:async/zone.dart:1021:19)
+#28     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#29     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#30     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#31     _runPendingImmediateCallback (dart:isolate/runtime/libisolate_patch.dart:115:13)
+#32     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, v1.1.10-pre.181, on Microsoft Windows [Version 10.0.17134.648], locale en-IN)
+    • Flutter version 1.1.10-pre.181 at D:\flutter\flutter
+    • Framework revision 731221c3e8 (2 months ago), 2019-01-25 06:34:30 -0800
+    • Engine revision 36acd02c94
+    • Dart version 2.1.1 (build 2.1.1-dev.3.2 f4afaee422)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at D:\Sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • ANDROID_HOME = D:\Sdk
+    • Java binary at: D:\android\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.3)
+    • Android Studio at D:\android
+    • Flutter plugin version 33.0.1
+    • Dart plugin version 182.5215
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+
+[✓] VS Code (version 1.33.0)
+    • VS Code at C:\Users\prateek\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 2.25.0
+
+[✓] VS Code, 64-bit edition (version 1.15.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    • Flutter extension version 2.25.0
+
+[!] Connected device
+    ! No devices available
+
+! Doctor found issues in 1 category.
+```

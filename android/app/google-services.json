@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "571613968626",
+    "firebase_url": "https://hades-b3379.firebaseio.com",
+    "project_id": "hades-b3379",
+    "storage_bucket": "hades-b3379.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571613968626:android:ba61bead75f9202c",
+        "android_client_info": {
+          "package_name": "com.example.hade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571613968626-c3enll1lv04drg0vbd68ag4vbvj1d9g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hade",
+            "certificate_hash": "64c872ee920489c21f6850c36892d160d686c9e7"
+          }
+        },
+        {
+          "client_id": "571613968626-7n3q566pgluomsdciktrcu6a3lbnd2ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqDmJKHFeIIVN0LxEZWwzrgqcoL36DJzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571613968626-7n3q566pgluomsdciktrcu6a3lbnd2ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
