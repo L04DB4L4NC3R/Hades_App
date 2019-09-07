@@ -67,7 +67,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
   Future<bool> check;
    String checktext() {
 
-     check = s.getlogincheck();
+     check = s.getLoginCheck();
      check.then((resultString) {
        setState(() {
          print("wsl;rgtyui");

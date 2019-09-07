@@ -63,7 +63,7 @@ class CouponCardState extends State<CouponCard> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) =>ScanScreen(pos,events),
+            builder: (context) =>ScanScreen(coupon,pos,events),
           ),
         );
       },

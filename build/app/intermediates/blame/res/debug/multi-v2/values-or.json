@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\flutter\\hade\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "outputFile": "/home/prateek/Data/Flutter Application/hade/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9416fe8ef5d06ca18b49661feb478948\\res\\values-or\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/res/values-or/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\26ca4a96189475208968c4875d7e5e20\\res\\values-or\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/res/values-or/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

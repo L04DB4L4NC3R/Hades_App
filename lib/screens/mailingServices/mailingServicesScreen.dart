@@ -26,7 +26,7 @@ class _MailingServicesScreen extends State<MailingServicesScreen> {
   void _all() {
       Navigator.push(
    context,
-   MaterialPageRoute(builder: (context) => AllScreen()),
+   MaterialPageRoute(builder: (context) => AllScreen(events: events,pos: pos,)),
  );
            
 }
@@ -34,7 +34,7 @@ class _MailingServicesScreen extends State<MailingServicesScreen> {
 void _read() {
        Navigator.push(
    context,
-   MaterialPageRoute(builder: (context) =>MailSpecificScreen()),
+   MaterialPageRoute(builder: (context) =>MailSpecificScreen(events: events,pos: pos,)),
  );      
 }
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\flutter\\hade\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "/home/prateek/Data/Flutter Application/hade/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a7582520552f14c3d561b8f57cee0dd9\\res\\values-pt\\values-pt.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

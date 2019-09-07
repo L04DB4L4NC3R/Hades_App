@@ -54,26 +54,26 @@ Map<String, dynamic> body = {
    body["event"] = '$eve';   
    print(body);
 
-//     Future fetchPosts(http.Client client) async {
-//  var response=await http.post(URL_VIEWCOUPON, body: json.encode(body));
+     Future fetchPosts(http.Client client) async {
+  var response=await http.post(URL_VIEWCOUPON, body: json.encode(body));
  
-//  final data = json.decode(response.body);
-//  print(data);
-//  if(data["error"]==null && data["rs"]!= null)
-//  {
-//       print(data['rs'][0]);
-//       List<ReadCoupon> products = new List<ReadCoupon>();
-//     for (int i = 0; i < data['rs'].length; i++) {
-//       products.add(new ReadCoupon.fromJson(data['rs'][i]));
-//       print(data['rs'][i]);
-//     }
-//     print(products[0].name);
-//     return products;
-//   } 
-//   else{
-//     return "No Data to be Fetched";
-//   }
-//     }
+  final data = json.decode(response.body);
+  print(data);
+  if(data["error"]==null && data["rs"]!= null)
+  {
+       print(data['rs'][0]);
+       List<ReadCoupon> products = new List<ReadCoupon>();
+     for (int i = 0; i < data['rs'].length; i++) {
+       products.add(new ReadCoupon.fromJson(data['rs'][i]));
+       print(data['rs'][i]);
+     }
+     print(products[0].name);
+     return products;
+   }
+   else{
+     return "No Data to be Fetched";
+   }
+     }
     
     
     return Scaffold(
@@ -88,22 +88,21 @@ Map<String, dynamic> body = {
         
       ),
       body:Container(
-      // child: FutureBuilder(
-      //   future: fetchPosts(http.Client()),
-      //   builder: (BuildContext context,AsyncSnapshot snapshot){
-      //     if(snapshot.data==null){
-      //       return Container(
-      //         child: Center(
-      //           child: CircularProgressIndicator(),
-      //         ),
-      //       );
+       child: FutureBuilder(
+         future: fetchPosts(http.Client()),
+         builder: (BuildContext context,AsyncSnapshot snapshot){
+           if(snapshot.data==null){
+             return Container(
+               child: Center(
+                 child: CircularProgressIndicator(),
+               ),
+             );
 
-        //  }
-          // else{
-          //   if(snapshot.data!="No Data to be Fetched")
-          //   {
-          //   return 
-      child:    Container(
+          }
+           else{
+             if(snapshot.data!="No Data to be Fetched")
+             {
+             return Container(
               child:Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -126,118 +125,27 @@ Map<String, dynamic> body = {
                   )),flex:1),
                 ],
               )),flex: 1),
-//                Flexible(child:ListView.builder(
-//              itemCount: snapshot.data.length,
-//               padding: const EdgeInsets.only(bottom: 16,left: 16,right: 16),
-//              itemBuilder: (BuildContext context,int index){
-//                return  CouponCard(snapshot.data[index],index,events);
-//
-//              },
-//            ),flex: 8)
-              Flexible(child: Column(
-                children: <Widget>[
-                  GestureDetector(
-                      
-                      child:Container(
-                        padding: EdgeInsets.only(left: 16,right: 16),
-                        child: new Card(
-                            elevation: 3.0,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            child: Column(
-                                mainAxisSize: MainAxisSize.min,
-                                children: <Widget>[
-                                  ListTile(
-                                    leading: Container(
+                Flexible(child:ListView.builder(
+              itemCount: snapshot.data.length,
+               padding: const EdgeInsets.only(bottom: 16,left: 16,right: 16),
+              itemBuilder: (BuildContext context,int index){
+                return  CouponCard(snapshot.data[index],index,events);
 
-                                      child:Text("Day: 1",style: TextStyle(fontSize:16 ,color: Colors.blue),textAlign: TextAlign.center,) ,)
-                                    ,
-                                    title: Text("Lunch"),
-                                    subtitle: Container(
+              },
+            ),flex: 8)
 
-                                        child:
-                                        Row(
-                                          children: <Widget>[
-                                            Text("Food")
-                                          ],
-                                        )
-
-                                    ),
-
-                                    onTap: () {
-                                   Navigator.push(
-                                     context,
-                                     MaterialPageRoute(
-                                       builder: (context) =>ScanScreen(pos,events),
-                                     ),
-                                   );
-                                    },
-
-                                  ),
-
-                                ]
-                            )
-                        ),
-                      )),
-                  GestureDetector(
-
-                      child:Container(
-                        padding: EdgeInsets.only(left: 16,right: 16),
-                        child: new Card(
-                            elevation: 3.0,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            child: Column(
-                                mainAxisSize: MainAxisSize.min,
-                                children: <Widget>[
-                                  ListTile(
-                                    leading: Container(
-
-                                      child:Text("Day: 2",style: TextStyle(fontSize:16 ,color: Colors.blue),textAlign: TextAlign.center,) ,)
-                                    ,
-                                    title: Text("Dinner"),
-                                    subtitle: Container(
-
-                                        child:
-                                        Row(
-                                          children: <Widget>[
-                                            Text("Food")
-                                          ],
-                                        )
-
-                                    ),
-
-                                    onTap: () {
-                                   Navigator.push(
-                                     context,
-                                     MaterialPageRoute(
-                                       builder: (context) =>ScanScreen(pos,events),
-                                     ),
-                                   );
-                                    },
-
-                                  ),
-
-                                ]
-                            )
-                        ),
-                      ))
-                ],
-              ) )
-              ],))
-            // }
-            // else{
-            //   return Center(child:Container(
-            //     child: Text(snapshot.data),
-            //   ),);
-            // }
+              ],));
+             }
+             else{
+               return Center(child:Container(
+                 child: Text(snapshot.data),
+               ),);
+             }
               
-         // }
-       // },
+          }
+        },
       ),
-    );
+    ));
       
     //);
   }

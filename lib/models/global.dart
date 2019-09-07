@@ -1,4 +1,9 @@
-const BASE_URL='http://139.59.9.221';
+import 'package:hade/models/organization.dart';
+import 'package:hade/screens/mailingServices/mailingServicesScreen.dart';
+
+const BASE_URL=
+    'http://139.59.9.221';
+//'http://192.168.43.192';
 const URL_READEVENT='$BASE_URL/api/v1/event/read-event';
 const URL_CREATEATTENDEE='$BASE_URL/api/v1/participants/create-attendee';
 const URL_ALLPARTICIPANTS='$BASE_URL/api/v1/simple-projection/project-all';
@@ -17,4 +22,15 @@ const URL_LOGIN='$BASE_URL/api/v1/org/login';
 const URL_SIGNUP='$BASE_URL/api/v1/org/signup';
 const URL_CREATEORGANIZATION='$BASE_URL/api/v1/org/create-org';
 const URL_SEARCHORG='$BASE_URL/api/v1/org/search?q=';
-const URL_GETORG='$BASE_URL/api/v1/org';
+const URL_SENDREQUEST='$BASE_URL/api/v1/org/join?org=';
+const URL_GETORG='$BASE_URL/api/v1/org/';
+
+
+
+//MailingServicesScreen
+const URL_MAILALL='$BASE_URL/api/v1/sendMail/';
+const URL_SPECIFIC_MAIL='$BASE_URL/api/v1/sendMail/';
+
+//Requests
+const URL_LOADREQUESTS='$BASE_URL/api/v1/org/view-req?org=';
+const URL_ACCEPTREQ='$BASE_URL/api/v1/org/accept';

@@ -5,10 +5,12 @@ import 'package:hade/models/global.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+import 'package:dio/dio.dart';
 import 'dart:async';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:hade/util.dart';
 import 'package:hade/screens/export/filesex.dart';
 
 class ExcelParticipantsList extends StatefulWidget{
@@ -107,14 +109,52 @@ Future<Directory> _appDocDir;
 
 
 
-   
+   var progressString = "";
+   bool downloading = false;
 
 
 
   @override
   Widget build(BuildContext context) {
+    Widget loadingIndicator2 =downloading? Container(
+        color: Colors.transparent,
+        height: MediaQuery.of(context).size.height,
+        width:  MediaQuery.of(context).size.width,
+        child:Center( child:Container(
+          height: 200,
+          width: 250,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10.0),
+
+            gradient:RadialGradient(
+
+              stops: [ 0.1,10],
+              colors: [
+//
+                Colors.grey[200],
+
+                Colors.grey[400],
+
+              ],),
+          ),
+
+
+          child: new Padding(padding: const EdgeInsets.all(16.0),child: new Center(child:Container(
+
+              child: Column(
+
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+
+                  new CircularProgressIndicator(),
+                  Padding(padding: EdgeInsets.all(5),),
+                  Text("Downloading File: $progressString",style: editText,)
+                ],
+              )
+          ) )),
+        ))):new Container();
     // TODO: implement build
-    return Scaffold(
+    return Stack(children: <Widget>[Scaffold(
        appBar: AppBar(
         title: Text(
           'Excel List',
@@ -253,7 +293,8 @@ Future<Directory> _appDocDir;
 //                 child:  Text('${state ?? "Select the option"}'),
 //               )
              
-              ])));
+              ]))) , new Align(child: loadingIndicator2, alignment: FractionalOffset.center,),
+    ]);;
 
 
               
@@ -311,43 +352,51 @@ body["query"]["specific"] = '$type';
   //  body["details"]["name"] = '$name';
   //  body["details"]["registrationNumber"] = '$reg';
   //  body["details"]["email"] = '$email';
-    
+     HttpClient client = new HttpClient();
+     var _downloadData = StringBuffer();
+     var fileSave = new File("/index.html");
+     client.getUrl(Uri.parse("${URL_EXCELFETCH}?key=gender&value=${gend}&specific=${type}&event=${eve}"))
+         .then((HttpClientRequest request) {
+           print("yaya");
+       return request.close();
+     })
+         .then((HttpClientResponse response) {
+       response.transform(utf8.decoder).listen((d) => _downloadData.write(d),
+           onDone: () {
+         print(fileSave);
+             fileSave.writeAsString(_downloadData.toString());
+           }
+       );
+     });
 
-     Future fetchPosts(http.Client client) async {
- var response=await http.post(URL_EXCELFETCH, body: json.encode(body));
 
-    
-   final data = response.body.toString();
-   print(data);
-       writeData(data.toString());
-       
-  }
     
      
    print(body);
-   
-   return FutureBuilder(
 
-        future: fetchPosts(http.Client()),
-        builder: (BuildContext context,AsyncSnapshot snapshot){
-          if(snapshot.data==null){
-            return Container(
-              child: Center(
-                child: CircularProgressIndicator(),
-              ),
-            );
-
-          }
-          else{
-        //     Fluttertoast.showToast(
-        // msg: "Check Your Connection",
-        // toastLength: Toast.LENGTH_SHORT,
-        // gravity: ToastGravity.BOTTOM,
-        // timeInSecForIos: 1,
-        // backgroundColor: Colors.grey[700],
-        // textColor: Colors.white);
-          }
-          });
+//   return FutureBuilder(
+//
+//        future: downloadFile(),
+//        builder: (BuildContext context,AsyncSnapshot snapshot){
+//          if(snapshot.data==null){
+//            return Container(
+//              child: Center(
+//                child: CircularProgressIndicator(),
+//              ),
+//            );
+//
+//          }
+//          else{
+//            return Container();
+//        //     Fluttertoast.showToast(
+//        // msg: "Check Your Connection",
+//        // toastLength: Toast.LENGTH_SHORT,
+//        // gravity: ToastGravity.BOTTOM,
+//        // timeInSecForIos: 1,
+//        // backgroundColor: Colors.grey[700],
+//        // textColor: Colors.white);
+//          }
+//          });
 
 
 

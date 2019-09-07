@@ -84,7 +84,7 @@ String email;
          color: Theme.of(context).backgroundColor,
          padding: EdgeInsets.all(35.0),
           child:Container(
-        color: _colors[1],
+        color: _colors[index],
         child: Center(
 
        
@@ -164,31 +164,16 @@ String email;
    Future _scanQR() async {
      try {
       String qrResult =await  QRCodeReader().scan();
-      // String qrResult = await BarcodeScanner.scan();
+//       String qrResult = await BarcodeScanner.scan();
       setState(() {
-      
+      print(qrResult);
         _sendToServer(qrResult.toString());
 //_processData(qrResult.toString());
-        //result = qrResult;
+//        result = qrResult;
       });
-    }
-    // } on PlatformException catch (ex) {
-    //   if (ex.code == BarcodeScanner.CameraAccessDenied) {
-    //     setState(() {
-    //       result = "Camera permission was denied";
-    //     });
-    //   } else {
-    //     setState(() {
-    //       result = "Unknown Error $ex";
-    //       index=2;
-    //     });
-    //   }
-    // } on FormatException {
-    //   setState(() {
-    //     result = "You pressed the back button before scanning anything";
-    //     index=2;
-    //   });
-    // } 
+
+     }
+
     catch (ex) {
       setState(() {
         result = "Unknown Error $ex";
@@ -210,7 +195,7 @@ String email;
     print(eve+pos.toString()+result);
     
    body["attendance"]["day"] = pos;
-    body["attendance"]["email"] = '$result';
+    body["attendance"]["email"] = '$res';
      body["attendance"]["eventName"] = '$eve';
    
   print(body);
@@ -224,7 +209,6 @@ String email;
       print(data['rs']);
       print(day);
       setState(() {
-       result="Successfully marked present for the day";
        if(data['rs'].toString()=="Successfully marked present for the day")
        {
          setState(() {
@@ -234,19 +218,12 @@ String email;
        }
        else{
         setState(() {
-           index=1;
+           index=2;
          });
        }
       });
-      //  Fluttertoast.showToast(
-      //   msg: data['rs'].toString(),
-      //   toastLength: Toast.LENGTH_SHORT,
-      //   gravity: ToastGravity.BOTTOM,
-      //   timeInSecForIos: 1,
-      //   backgroundColor: Colors.grey[700],
-      //   textColor: Colors.white);
-      //  _processData(data['rs']);
-         _processData("Successfully marked present for the day");
+
+         _processData(data['rs']);
   }
     
      
@@ -265,13 +242,7 @@ String email;
 
           }
           else{
-        //     Fluttertoast.showToast(
-        // msg: "Check Your Connection",
-        // toastLength: Toast.LENGTH_SHORT,
-        // gravity: ToastGravity.BOTTOM,
-        // timeInSecForIos: 1,
-        // backgroundColor: Colors.grey[700],
-        // textColor: Colors.white);
+      return Container();
           }
           });
 

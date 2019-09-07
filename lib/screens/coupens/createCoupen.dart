@@ -283,7 +283,7 @@ class CreateCoupenPage extends StatefulWidget{
    body["coupons"][0]["name"] = '$name';
    body["coupons"][0]["description"] = '$des';
    body["coupons"][0]["day"] =dd;
-   
+   print(body);
 
      Future fetchPosts(http.Client client) async {
  var response=await http.post(URL_CREATECOUPON, body: json.encode(body));
@@ -292,13 +292,8 @@ class CreateCoupenPage extends StatefulWidget{
    final data = json.decode(response.body);
    print(data);
       print(data['rs']);
-      //  Fluttertoast.showToast(
-      //   msg: data['rs'].toString(),
-      //   toastLength: Toast.LENGTH_SHORT,
-      //   gravity: ToastGravity.BOTTOM,
-      //   timeInSecForIos: 1,
-      //   backgroundColor: Colors.grey[700],
-      //   textColor: Colors.white);
+
+
         _processData();
   }
     
@@ -318,13 +313,8 @@ class CreateCoupenPage extends StatefulWidget{
 
           }
           else{
-        //     Fluttertoast.showToast(
-        // msg: "Check Your Connection",
-        // toastLength: Toast.LENGTH_SHORT,
-        // gravity: ToastGravity.BOTTOM,
-        // timeInSecForIos: 1,
-        // backgroundColor: Colors.grey[700],
-        // textColor: Colors.white);
+            return Container();
+
           }
           });
 

@@ -1,492 +1,492 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-MERGED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-MERGED from [:permission] F:\flutter\hade\build\permission\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences] F:\flutter\hade\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-23:12
-MERGED from [:path_provider] F:\flutter\hade\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_core] F:\flutter\hade\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-20:12
-MERGED from [:firebase_storage] F:\flutter\hade\build\firebase_storage\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:15:1-37:12
-MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\759686fc82a68b602f4f89834bac5d71\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-17.0.0.aar\77a8c75540fc4075e41c119f169b6ad6\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\3048034707ccb3ceeb0140a12111cae2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:17:1-34:12
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\519c63d933d62b303ab48fe69ac9d628\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\a9543dc3a5a7113075cc3cdba37faf78\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\975b64a661d1970e121e2670206f81da\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\305459c5fa8d5a1d1403f3ae1859df27\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\e3531f85dc14747aa9e47adffbea3264\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\f156d9c7c35d076e63c91cfbfef06e9d\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:17:1-31:12
-MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\qrcodereaderview-2.0.2.aar\ca83909538f65d3338a076ad46761f6f\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:17:1-30:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\b060677700b074147d1ab453cc4a4f5f\AndroidManifest.xml:2:1-9:12
-INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
+MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
+MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-17.0.0.aar/2b5029c4cf101d03f15d15038a29e5c0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/5e7d32f246bc6469f4ebd89d80d47a9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/aef9bab00ab672ff22ff2f56ad914766/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/6378d5378ac8fd710a9da7679f282d1b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/6186a81f2fef2b7757c415d7c6134419/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5245f040b5a974af9110e3ad55507df8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d670dda10a0f590ac3b1a0c787cc5914/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/715f32c3d1bece39a1ac1dc180bd2ae8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:17:1-31:12
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/qrcodereaderview-2.0.2.aar/57a566b177350b4f880b31dbd854349e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:2:5-31
-		INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-		INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:1-38:12
-		INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:10:10-85
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-80
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-80
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:10:10-85
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:10:27-82
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:10:27-82
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:11:10-86
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-81
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-81
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:11:10-86
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:11:27-83
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:11:27-83
 uses-permission#android.permission.INTERNET
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:12:10-72
-MERGED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:12:10-72
-MERGED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:12:10-72
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:23:5-67
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
+MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
+MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:12:27-69
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:27-69
 application
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:14:5-37:19
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-18:19
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-18:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:29:5-35:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:29:5-35:19
-MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\759686fc82a68b602f4f89834bac5d71\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\759686fc82a68b602f4f89834bac5d71\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-17.0.0.aar\77a8c75540fc4075e41c119f169b6ad6\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-17.0.0.aar\77a8c75540fc4075e41c119f169b6ad6\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\519c63d933d62b303ab48fe69ac9d628\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\519c63d933d62b303ab48fe69ac9d628\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\a9543dc3a5a7113075cc3cdba37faf78\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\a9543dc3a5a7113075cc3cdba37faf78\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\975b64a661d1970e121e2670206f81da\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\975b64a661d1970e121e2670206f81da\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\305459c5fa8d5a1d1403f3ae1859df27\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\305459c5fa8d5a1d1403f3ae1859df27\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\e3531f85dc14747aa9e47adffbea3264\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\e3531f85dc14747aa9e47adffbea3264\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\f156d9c7c35d076e63c91cfbfef06e9d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\f156d9c7c35d076e63c91cfbfef06e9d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\b060677700b074147d1ab453cc4a4f5f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\b060677700b074147d1ab453cc4a4f5f\AndroidManifest.xml:7:5-20
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:14:5-37:19
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-17.0.0.aar/2b5029c4cf101d03f15d15038a29e5c0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-17.0.0.aar/2b5029c4cf101d03f15d15038a29e5c0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/aef9bab00ab672ff22ff2f56ad914766/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/aef9bab00ab672ff22ff2f56ad914766/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/6378d5378ac8fd710a9da7679f282d1b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/6378d5378ac8fd710a9da7679f282d1b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/6186a81f2fef2b7757c415d7c6134419/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/6186a81f2fef2b7757c415d7c6134419/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5245f040b5a974af9110e3ad55507df8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5245f040b5a974af9110e3ad55507df8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d670dda10a0f590ac3b1a0c787cc5914/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d670dda10a0f590ac3b1a0c787cc5914/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/715f32c3d1bece39a1ac1dc180bd2ae8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/715f32c3d1bece39a1ac1dc180bd2ae8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:7:5-20
 	android:label
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:16:9-30
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:16:9-30
 	android:icon
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:17:9-43
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:15:9-57
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:15:9-57
 activity#com.example.hade.MainActivity
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:18:9-36:20
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:18:9-36:20
 	android:launchMode
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:20:13-43
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:20:13-43
 	android:hardwareAccelerated
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:23:13-47
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:23:13-47
 	android:windowSoftInputMode
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:24:13-55
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:24:13-55
 	android:configChanges
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:22:13-144
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:22:13-144
 	android:theme
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:21:13-47
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:21:13-47
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:19:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:29:13-31:40
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:29:13-31:40
 	android:value
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:31:17-37
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:31:17-37
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:30:17-82
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:30:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:32:13-35:29
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:32:13-35:29
 action#android.intent.action.MAIN
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:33:17-68
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:33:17-68
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:34:17-76
+ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:34:17-76
 	android:name
-		ADDED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:34:27-74
 uses-sdk
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-MERGED from [:permission] F:\flutter\hade\build\permission\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:permission] F:\flutter\hade\build\permission\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] F:\flutter\hade\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] F:\flutter\hade\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] F:\flutter\hade\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] F:\flutter\hade\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] F:\flutter\hade\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] F:\flutter\hade\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:firebase_storage] F:\flutter\hade\build\firebase_storage\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] F:\flutter\hade\build\firebase_storage\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\759686fc82a68b602f4f89834bac5d71\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.4.aar\759686fc82a68b602f4f89834bac5d71\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-17.0.0.aar\77a8c75540fc4075e41c119f169b6ad6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-17.0.0.aar\77a8c75540fc4075e41c119f169b6ad6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\3048034707ccb3ceeb0140a12111cae2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\3048034707ccb3ceeb0140a12111cae2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\519c63d933d62b303ab48fe69ac9d628\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.2.aar\519c63d933d62b303ab48fe69ac9d628\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\a9543dc3a5a7113075cc3cdba37faf78\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\a9543dc3a5a7113075cc3cdba37faf78\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\975b64a661d1970e121e2670206f81da\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\975b64a661d1970e121e2670206f81da\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\305459c5fa8d5a1d1403f3ae1859df27\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\305459c5fa8d5a1d1403f3ae1859df27\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\e3531f85dc14747aa9e47adffbea3264\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\e3531f85dc14747aa9e47adffbea3264\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\f156d9c7c35d076e63c91cfbfef06e9d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\f156d9c7c35d076e63c91cfbfef06e9d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:21:5-23:54
-MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\qrcodereaderview-2.0.2.aar\ca83909538f65d3338a076ad46761f6f\AndroidManifest.xml:8:5-10:41
-MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\qrcodereaderview-2.0.2.aar\ca83909538f65d3338a076ad46761f6f\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\b060677700b074147d1ab453cc4a4f5f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.3.aar\b060677700b074147d1ab453cc4a4f5f\AndroidManifest.xml:5:5-44
-INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
-INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-17.0.0.aar/2b5029c4cf101d03f15d15038a29e5c0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-17.0.0.aar/2b5029c4cf101d03f15d15038a29e5c0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/5e7d32f246bc6469f4ebd89d80d47a9f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/5e7d32f246bc6469f4ebd89d80d47a9f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/aef9bab00ab672ff22ff2f56ad914766/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/aef9bab00ab672ff22ff2f56ad914766/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/6378d5378ac8fd710a9da7679f282d1b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/6378d5378ac8fd710a9da7679f282d1b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/6186a81f2fef2b7757c415d7c6134419/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/6186a81f2fef2b7757c415d7c6134419/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5245f040b5a974af9110e3ad55507df8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5245f040b5a974af9110e3ad55507df8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d670dda10a0f590ac3b1a0c787cc5914/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d670dda10a0f590ac3b1a0c787cc5914/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/715f32c3d1bece39a1ac1dc180bd2ae8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/715f32c3d1bece39a1ac1dc180bd2ae8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:21:5-23:54
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/qrcodereaderview-2.0.2.aar/57a566b177350b4f880b31dbd854349e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/qrcodereaderview-2.0.2.aar/57a566b177350b4f880b31dbd854349e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:5:5-44
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\flutter\hade\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\flutter\hade\android\app\src\debug\AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-65
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
-MERGED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
+MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:22-62
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-62
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-20:20
+ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-47
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-74
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-74
 	android:exported
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-37
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-82
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-19:75
+ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:75
 	android:resource
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:17-72
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-72
 	android:name
-		ADDED from [:image_picker] F:\flutter\hade\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:17-67
+		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
 activity#com.matheusvillela.flutter.plugins.qrcodereader.QRScanActivity
-ADDED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:9-17:63
+ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:9-17:63
 	android:configChanges
-		ADDED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-96
+		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-96
 	android:theme
-		ADDED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-60
+		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-60
 	android:name
-		ADDED from [:qrcode_reader] F:\flutter\hade\build\qrcode_reader\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-90
+		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-90
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:26:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:30:9-34:19
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:30:18-89
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:30:18-89
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:31:13-33:85
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:31:13-33:85
 	android:value
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:33:17-82
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:33:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-storage-17.0.0.aar\697788f846dd7d86bc4606826c10a603\AndroidManifest.xml:32:17-107
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:32:17-107
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:25:13-85
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-auth-17.0.0.aar\b97a1cc6b4a0038f981a7ed5498427b8\AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:37:17-109
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:24:22-65
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:28:13-30:85
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:28:13-30:85
 	android:value
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:30:17-82
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:30:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.2.aar\aacaeee42ad9312ef12003dc67fa62a8\AndroidManifest.xml:29:17-139
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:29:17-139
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:26:5-110
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:26:22-107
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:31:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:30:13-85
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.2.aar\c277cb360222b7e676dd7966f9f0dde8\AndroidManifest.xml:29:9-37:20
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/173fb1e4fc19340af6a4861daa0e08e1/AndroidManifest.xml:29:9-37:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:36:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:38:13-69
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:35:13-100
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:40:17-79
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:40:25-76
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:44:9-47:40
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:44:9-47:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:46:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:45:13-84
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:50:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:52:13-69
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.4.aar\ad6b9437eaca066ec51b8e55fceeb41d\AndroidManifest.xml:49:13-87
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/c50e548ad820ec8069ebe4fe405f879b/AndroidManifest.xml:49:13-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\00ec1c1d2c82b0431c0b80f5a05e86fb\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9416fe8ef5d06ca18b49661feb478948\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:12:9-16:39
+ADDED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:14:13-72
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:15:13-37
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:16:13-36
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\89a31764300d8abeb48a1ffe796682a0\AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-common-17.0.0.aar/945a68e336efc92ad68e9356a68a89c7/AndroidManifest.xml:13:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\26ca4a96189475208968c4875d7e5e20\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\38692aa582eac0d826b59c2764a3a3bf\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\5fd01d4302b14433e55c1fe9d7cfd37b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b3c5b74ca9e814b3f18bafda662d3bc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\0d5d6620a121d857dbf105f342d672cd\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a7582520552f14c3d561b8f57cee0dd9\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/1358802e8a58adf81cb84dfc49c86644/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/cd35d0c797eb571668c08c2f84381f73/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2ef4354f082470364ce2e0ca4df54e0b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f09b0257733c213601849a6b933fe0ac\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\prateek\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a98b2933ad30c0949358ff70e16dc422\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:26:13-58

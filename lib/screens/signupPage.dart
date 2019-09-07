@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' as prefix1;
 import 'package:hade/models/global.dart';
 import 'package:hade/userDataMangment.dart';
 import 'package:hade/util.dart' as prefix0;
+import 'package:hade/screens/getOrganizationPage.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
+import 'package:toast/toast.dart';
 import 'dart:convert';
 
 import 'homePage.dart';
@@ -35,8 +38,8 @@ SharedPreferencesTest s=new SharedPreferencesTest();
 
   void toHomePage() {
     _key.currentState?.reset();
-    Navigator.of(context).pushReplacementNamed('/getOrg');
-
+    Navigator.of(context).popUntil((route) => route.isFirst);
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => GetOrganizationPage()));
     // Navigator.push(
     //     context, MaterialPageRoute(builder: (context) => HomePage()));
 
@@ -165,10 +168,10 @@ SharedPreferencesTest s=new SharedPreferencesTest();
     ),
     child:
                   TextFormField(
-                    style: TextStyle(color: Colors.pink),
+                    style: TextStyle(color: Colors.blue),
                     cursorColor: Theme
                         .of(context)
-                        .primaryColor,
+                        .accentColor,
                     decoration: const InputDecoration(
                       border: OutlineInputBorder(),
                       hintStyle: prefix0.loginformText,
@@ -195,10 +198,9 @@ SharedPreferencesTest s=new SharedPreferencesTest();
     ),
     child:
                   TextFormField(
-                    style: TextStyle(color: Colors.pink),
+                    style: TextStyle(color: Colors.blue),
                     cursorColor: Theme
-                        .of(context)
-                        .primaryColor,
+                        .of(context).accentColor,
                     decoration: const InputDecoration(
                       border: OutlineInputBorder(),
                       hintStyle: prefix0.loginformText,
@@ -227,7 +229,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
     ),
     child:
                 new TextFormField(
-                    style: TextStyle(color: Colors.pink),
+                    style: TextStyle(color: Colors.blue),
                     cursorColor: Theme
                         .of(context)
                         .accentColor,
@@ -253,7 +255,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
                                 hintColor: Colors.blue
     ),
     child: TextFormField(
-                    style: TextStyle(color: Colors.pink),
+                    style: TextStyle(color: Colors.blue),
                     cursorColor: Theme
                         .of(context)
                         .accentColor,
@@ -280,7 +282,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
                                 hintColor: Colors.blue
     ),
     child:TextFormField(
-                  style: TextStyle(color: Colors.pink),
+                  style: TextStyle(color: Colors.blue),
                   cursorColor: Theme
                       .of(context)
                       .accentColor,
@@ -310,7 +312,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
     ),
     child:
                 TextFormField(
-                  style: TextStyle(color: Colors.pink),
+                  style: TextStyle(color: Colors.blue),
                   cursorColor: Theme
                       .of(context)
                       .accentColor,
@@ -473,110 +475,85 @@ SharedPreferencesTest s=new SharedPreferencesTest();
   }
 
   _sendToServer() {
-    if(_key.currentState.validate())
-    {
-      _load=true;
+    if(_key.currentState.validate()) {
+      _load = true;
       _key.currentState.save();
-      body["firstName"]='$_signname';
-      body["lastName"]='$_signlastname';
-      body["email"]='$_signemail';
-      body["phoneNumber"]='$_signmob';
-      body["password"]='$_signpassword';
+      if (_signcpassword.compareTo(_signpassword) == 0) {
+        body["firstName"] = '$_signname';
+        body["lastName"] = '$_signlastname';
+        body["email"] = '$_signemail';
+        body["phoneNumber"] = '$_signmob';
+        body["password"] = '$_signpassword';
 
 
+        Future fetchPosts(http.Client client) async {
+          print("yjhtgfdsyutrgds");
+          var response = await http.post(
+            URL_SIGNUP, headers: {"Content-Type": "application/json"},
+            body: json.encode(body),);
 
-      Future fetchPosts(http.Client client) async {
-        print("yjhtgfdsyutrgds");
-        var response = await http.post(
-          URL_SIGNUP, headers: {"Content-Type": "application/json"},
-          body: json.encode(body),);
+          print(response.statusCode);
+          print(response.body);
+          if (response.statusCode == 200) {
+            final data = json.decode(response.body);
 
-        print(response.statusCode);
-        if (response.statusCode == 200) {
-          final data = json.decode(response.body);
-
-          print(data);
-          if (data['rs'].toString().compareTo("Done")==0) {
-            s.setToken(data["token"]);
-            s.setlogincheck(true);
-//            Fluttertoast.showToast(
-//                msg: data['msg'].toString(),
-//                toastLength: Toast.LENGTH_SHORT,
-//                gravity: ToastGravity.BOTTOM,
-//                timeInSecForIos: 1,
-//                backgroundColor: Colors.grey[700],
-//                textColor: Colors.white);
-       
-            toHomePage();
-
+            print(data);
+            if (data['message'].toString().compareTo("Done") == 0) {
+              s.setToken(data["token"]);
+              s.setLoginCheck(true);
+              Toast.show("Successful Signup", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+              toHomePage();
+            }
+            else {
+              Toast.show("User already exists", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+              setState(() {
+                _load = false;
+              });
+            }
           }
           else {
-            // Fluttertoast.showToast(
-            //     msg: data['msg'].toString(),
-            //     toastLength: Toast.LENGTH_SHORT,
-            //     gravity: ToastGravity.BOTTOM,
-            //     timeInSecForIos: 1,
-            //     backgroundColor: Colors.grey[700],
-            //     textColor: Colors.white);
+            Toast.show("Server Error", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+
             setState(() {
-              _load=false;
+              _load = false;
             });
           }
         }
-        else {
-          // Fluttertoast.showToast(
-          //     msg: "Sorry, Server Error",
-          //     toastLength: Toast.LENGTH_SHORT,
-          //     gravity: ToastGravity.BOTTOM,
-          //     timeInSecForIos: 1,
-          //     backgroundColor: Colors.grey[700],
-          //     textColor: Colors.white);
-          setState(() {
-            _load=false;
-          });
-        }
+
+
+        print(body);
+
+        return FutureBuilder(
+            future: fetchPosts(http.Client()),
+            builder: (BuildContext context, AsyncSnapshot snapshot) {
+
+                return Container(
+                  child: Center(
+                    child: CircularProgressIndicator(),
+                  ),
+                );
+              });
+
+
+//
+      }
+      else{
+        setState(() {
+          _load=false;
+        });
+        Toast.show("Password did not match", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+      }
+    }
+//
+
+
+      else {
+        // validation error
+        setState(() {
+          _validate = true;
+        });
       }
 
-
-      print(body);
-
-      return FutureBuilder(
-          future: fetchPosts(http.Client()),
-          builder: (BuildContext context,AsyncSnapshot snapshot){
-            if(snapshot.data==null){
-              return Container(
-                child: Center(
-                  child: CircularProgressIndicator(),
-                ),
-              );
-
-            }
-            else{
-              // Fluttertoast.showToast(
-              //     msg: "Check Your Connection",
-              //     toastLength: Toast.LENGTH_SHORT,
-              //     gravity: ToastGravity.BOTTOM,
-              //     timeInSecForIos: 1,
-              //     backgroundColor: Colors.grey[700],
-              //     textColor: Colors.white);
-            }
-          });
-
-
-
-//
-    }
-//
-
-
-    else{
-
-      // validation error
-      setState(() {
-        _validate = true;
-      });
-
-    }
 
 
 

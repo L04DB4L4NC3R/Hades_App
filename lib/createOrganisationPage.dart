@@ -6,6 +6,7 @@ import 'dart:convert';
 import 'package:hade/util.dart';
 import 'package:hade/models/global.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:toast/toast.dart';
 import 'dart:io';
 import 'package:hade/userDataMangment.dart';
 import 'package:hade/screens/signupPage.dart';
@@ -321,7 +322,6 @@ String orgtag;
                                     labelText: 'Website'
                                 ),
                                 keyboardType: TextInputType.emailAddress,
-                                validator: validateName,
                                 onSaved: (String val) {
                                   orgWeb = val;
                                 }
@@ -345,7 +345,7 @@ String orgtag;
                       child: Container(
                         decoration:BoxDecoration(
                        color: prefix0.backgroundColor,
-  
+
     shape: BoxShape.rectangle,
     
     borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -529,19 +529,31 @@ print(body);
           body: json.encode(body),);
 
         print(response.statusCode);
+
         if (response.statusCode == 200) {
+
           final data = json.decode(response.body);
           print(data);
+          if(data["message"].compareTo("Created Organization")==0){
+            Navigator.of(context).pop();
+            Toast.show("Oragnization Created", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
           setState(() {
-           _load=false; 
+           _load=false;
           });
 
         }
+          else{
+            Toast.show("Oragnization already exists", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+            setState(() {
+              _load=false;
+            });
+          }
+          }
         else {
 setState(() {
            _load=false; 
           });
-print("Try Again");
+Toast.show("Try Again", context, duration:Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
         }
       }
 
@@ -561,7 +573,7 @@ print("Try Again");
 
             }
             else{
-
+return Container();
             }
           });
 

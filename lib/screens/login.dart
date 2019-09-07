@@ -6,6 +6,7 @@ import 'dart:convert';
 import 'package:hade/util.dart';
 import 'package:hade/models/global.dart';
 import 'dart:io';
+import 'package:toast/toast.dart';
 import 'package:hade/userDataMangment.dart';
 import 'package:hade/screens/signupPage.dart';
 
@@ -405,28 +406,41 @@ SharedPreferencesTest s=new SharedPreferencesTest();
         print(response.body);
         if (response.statusCode == 200) {
           final data = json.decode(response.body);
- s.setToken(data["token"]);
- s.setlogincheck(true);
-              toHomePage();
 
-          print(data);
+            s.setToken(data["token"]);
+            s.setLoginCheck(true);
+            toHomePage();
 
-            if (data["rs"].toString().compareTo("Done")==0) {
+            print(data);
 
+            if (data["rs"].toString().compareTo("Done") == 0) {
               s.setToken(data["token"]);
               toHomePage();
             }
 
 
-          else {
 
-            setState(() {
-              _load=false;
-            });
-          }
+
+
+
         }
         else {
 
+          if(response.statusCode==500) {
+            final data = json.decode(response.body);
+            Toast.show(data["err"].toString(), context,
+                duration: Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+            setState(() {
+              _load = false;
+            });
+          }
+          else{
+            setState(() {
+              _load = false;
+            });
+            Toast.show("Try again", context,
+                duration: Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+          }
         }
       }
 
@@ -446,7 +460,7 @@ SharedPreferencesTest s=new SharedPreferencesTest();
 
             }
             else{
-
+return Container();
             }
           });
 

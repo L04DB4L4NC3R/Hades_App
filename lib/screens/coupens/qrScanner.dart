@@ -13,13 +13,13 @@ class ScanScreen extends StatefulWidget {
    ReadCoupon attendee;
   int pos;
   RS events;
- // ScanScreen(this.attendee,this.pos,this.events);
-   ScanScreen(this.pos,this.events);
+  ScanScreen(this.attendee,this.pos,this.events);
+//   ScanScreen(this.pos,this.events);
 
   @override
   State<StatefulWidget> createState() {
-//    return _ScanState(attendee,pos,events);
-    return _ScanState(pos,events);
+    return _ScanState(attendee,pos,events);
+//    return _ScanState(pos,events);
   }
 }
 
@@ -31,29 +31,30 @@ class _ScanState extends State<ScanScreen> {
   Color clr;
   int index=1;
   List _colors;
+  ReadCoupon coupon;
 
 
-  _ScanState(this.pos,this.events);
+//  _ScanState(this.pos,this.events);
 
-//  _ScanState(this.coupon,this.pos,this.events);
+  _ScanState(this.coupon,this.pos,this.events);
 
-//   Map<String, dynamic> body ={
-//     "attendance": {
-//         "couponName": "dinner",
-//         "day": 2,
-//         "email": "a@a.COM",
-//         "eventName": "DEVRELCONF"
-//     }
-// };
+   Map<String, dynamic> body ={
+     "attendance": {
+         "couponName": "dinner",
+         "day": 2,
+         "email": "a@a.COM",
+         "eventName": "DEVRELCONF"
+     }
+ };
 
-// Map<String, dynamic> body2 ={
-//     "event": "DEVRELCONF",
-//     "query": {
-//         "name": "lunch",
-//         "day": 2,
-//         "description": "lunch"
-//     }
-// };
+ Map<String, dynamic> body2 ={
+     "event": "DEVRELCONF",
+     "query": {
+         "name": "lunch",
+         "day": 2,
+         "description": "lunch"
+     }
+ };
 String email;
 
   @override
@@ -75,14 +76,14 @@ String email;
         title: Text("Redeem",textAlign: TextAlign.center,),
        centerTitle: true,
        elevation: 0.0,
-      //  actions: <Widget>[
-      //    IconButton(
-      //   icon: Icon(Icons.delete),
-      //   tooltip: 'Delete',
-      //   onPressed: () {
-      //    _deleteFromServer();
-      //   },
-      //    )],
+        actions: <Widget>[
+          IconButton(
+         icon: Icon(Icons.delete),
+         tooltip: 'Delete',
+         onPressed: () {
+          _deleteFromServer();
+         },
+          )],
       ),
       
       
@@ -92,7 +93,7 @@ String email;
          color: Theme.of(context).backgroundColor,
          padding: EdgeInsets.all(35.0),
           child:Container(
-        color: _colors[1],
+        color: _colors[index],
         child: Center(
 
       
@@ -152,30 +153,14 @@ child:Container(
    Future _scanQR() async {
     try {
       String qrResult =await  QRCodeReader().scan();
-      // String qrResult = await BarcodeScanner.scan();
+//       String qrResult = await BarcodeScanner.scan();
       setState(() {
       
         _sendToServer(qrResult.toString());
 //_processData(qrResult.toString());
-        //result = qrResult;
+//        result = qrResult;
       });
     }
-    // } on PlatformException catch (ex) {
-    //   if (ex.code == Q) {
-    //     setState(() {
-    //       result = "Camera permission was denied";
-    //     });
-    //   } else {
-    //     setState(() {
-    //       result = "Unknown Error $ex";
-    //       index=2;
-    //     });
-    //   }
-    // } on FormatException {
-    //   setState(() {
-    //     result = "You pressed the back button before scanning anything";
-    //     index=2;
-    //   });
      catch (ex) {
       setState(() {
         result = "Unknown Error $ex";
@@ -187,87 +172,76 @@ child:Container(
    void _processData(String res) {
     // Process your data and upload to server
     result=res;
-    //widget.key?.currentState?.reset();
+//    widget.key?.currentState?.reset();
   }
 
    _sendToServer(String res){
      print(res);
-     setState(() {
-       result="Successfully posted coupon";
-     });
-     _processedData();
-//
-//    String eve=events.name.toString();
-//    String nm=events.clubName.toString();
-//    String name=coupon.name.toString();
-//     var dd = coupon.day;
-//     //result = res;
-//   body["attendance"]["couponName"] = '$name';
-//   body["attendance"]["day"] = dd;
-//    body["attendance"]["email"] = '$result';
-//     body["attendance"]["eventName"] = '$eve';
-//
-//  print(body);
-//
-//     Future fetchPosts(http.Client client) async {
-// var response=await http.post(URL_REDEEM, body: json.encode(body));
-//
-//
-//   final data = json.decode(response.body);
-//
-//      print(data['rs']);
-//      setState(() {
-//       result="Successfully posted coupon";
-//       if(data['rs'].toString()=="Successfully posted coupon")
-//       {
-//         setState(() {
-//           index=1;
-//         });
-//
-//       }
-//       else{
-//        setState(() {
-//           index=2;
-//         });
-//       }
-//      });
-//      //  Fluttertoast.showToast(
-//      //   msg: data['rs'].toString(),
-//      //   toastLength: Toast.LENGTH_SHORT,
-//      //   gravity: ToastGravity.BOTTOM,
-//      //   timeInSecForIos: 1,
-//      //   backgroundColor: Colors.grey[700],
-//      //   textColor: Colors.white);
-//      //  _processData(data['rs']);
-//         _processData("Successfully posted coupon");
-//  }
-//
-//
-//   print(body);
-//
-//   return FutureBuilder(
-//
-//        future: fetchPosts(http.Client()),
-//        builder: (BuildContext context,AsyncSnapshot snapshot){
-//          if(snapshot.data==null){
-//            return Container(
-//              child: Center(
-//                child: CircularProgressIndicator(),
-//              ),
-//            );
-//
-//          }
-//          else{
-//        //     Fluttertoast.showToast(
-//        // msg: "Check Your Connection",
-//        // toastLength: Toast.LENGTH_SHORT,
-//        // gravity: ToastGravity.BOTTOM,
-//        // timeInSecForIos: 1,
-//        // backgroundColor: Colors.grey[700],
-//        // textColor: Colors.white);
-//          }
-//          });
-//
+    String eve=events.name.toString();
+    String nm=events.clubName.toString();
+    String name=coupon.name.toString();
+     var dd = coupon.day;
+     //result = res;
+   body["attendance"]["couponName"] = '$name';
+   body["attendance"]["day"] = dd;
+    body["attendance"]["email"] = '$res';
+     body["attendance"]["eventName"] = '$eve';
+
+  print(body);
+
+     Future fetchPosts(http.Client client) async {
+ var response=await http.post(URL_REDEEM, body: json.encode(body));
+
+
+   final data = json.decode(response.body);
+
+      print(data['rs']);
+      setState(() {
+       if(data['rs'].toString()=="Successfully posted coupon")
+       {
+         setState(() {
+           index=1;
+         });
+
+       }
+       else{
+        setState(() {
+           index=2;
+         });
+       }
+      });
+
+         _processData(data["rs"]);
+  }
+
+
+   print(body);
+
+   return FutureBuilder(
+
+        future: fetchPosts(http.Client()),
+        builder: (BuildContext context,AsyncSnapshot snapshot){
+          if(snapshot.data==null){
+            return Container(
+              child: Center(
+                child: CircularProgressIndicator(),
+              ),
+            );
+
+          }
+          else{
+     return Container();
+
+        //     Fluttertoast.showToast(
+        // msg: "Check Your Connection",
+        // toastLength: Toast.LENGTH_SHORT,
+        // gravity: ToastGravity.BOTTOM,
+        // timeInSecForIos: 1,
+        // backgroundColor: Colors.grey[700],
+        // textColor: Colors.white);
+          }
+          });
+
 
 
    
@@ -278,10 +252,10 @@ child:Container(
   }
 
    void _processedData() {
-    // Process your data and upload to server
-    //_key.currentState?.reset();
-  //  Navigator.of(context).pop();
-    //widget.key?.currentState?.reset();
+//     Process your data and upload to server
+//    _key.currentState?.reset();
+//    Navigator.of(context).pop();
+//    widget.key?.currentState?.reset();
   }
 
   _deleteFromServer(){

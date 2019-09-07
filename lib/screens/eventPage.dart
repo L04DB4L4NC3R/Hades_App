@@ -9,20 +9,24 @@ import 'package:hade/screens/addExtras.dart';
 class EventPage extends StatefulWidget {
    RS events;
   int pos;
+   String name;
+   String clubname;
 
-  EventPage(this.events,this.pos);
+  EventPage(this.events,this.pos,this.name,this.clubname);
   @override
   @override
   State<StatefulWidget> createState() {
-    return _EventPage(events,pos);
+    return _EventPage(events,pos,clubname,name);
   }
 }
 
 class _EventPage extends State<EventPage> {
   RS events;
   int pos;
+  String name;
+  String clubname;
 
-  _EventPage(this.events,this.pos);
+  _EventPage(this.events,this.pos,this.clubname,this.name);
 
   @override
   Widget build(BuildContext context) {
@@ -59,20 +63,20 @@ class _EventPage extends State<EventPage> {
               centerTitle: true,
               elevation:0.0,
              // backgroundColor: Colors.grey[50],
-//              actions: <Widget>[
-//                IconButton(
-//                       icon: Icon(
-//                     Icons.person_add,
-//                   ),
-//                   onPressed: (){
-//                      Navigator.push(
-//    context,
-//    MaterialPageRoute(builder: (context) => AddExtras(events,pos)),
-//  );
-//                   },
-//                   )
+              actions: <Widget>[
+                IconButton(
+                       icon: Icon(
+                     Icons.person_add,
+                   ),
+                   onPressed: (){
+                      Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => AddExtras(events,pos)),
+  );
+                   },
+                   )
                
-//              ],
+              ],
               
              
             ),
@@ -142,51 +146,51 @@ class _EventPage extends State<EventPage> {
                                                         ),
              
     
-              //   GestureDetector(child: Container(
-              //       padding: EdgeInsets.only(left: 16,right:16,bottom: 16),
-              //       child: Center(
+                 GestureDetector(child: Container(
+                     padding: EdgeInsets.only(left: 16,right:16,bottom: 16),
+                     child: Center(
                     
-              //           child: Card(
-              //              elevation: 2.0,
-              //               shape: RoundedRectangleBorder(
-              //                 borderRadius: BorderRadius.circular(8.0),
-              //               ),
-              //               child:Container(
+                         child: Card(
+                            elevation: 2.0,
+                             shape: RoundedRectangleBorder(
+                               borderRadius: BorderRadius.circular(8.0),
+                             ),
+                             child:Container(
 
-              //                  width: MediaQuery.of(context).size.width-60,
-              //                  height: 200,
-              //               child: Column(
-              //                   mainAxisSize: MainAxisSize.min,
-              //                   children: <Widget>[
-              //                   Flexible(child:Container(
-              //                     padding: EdgeInsets.all(5),
-              //                     child:Center(child: ClipRRect(
-              // borderRadius: new BorderRadius.only(topLeft:Radius.circular(8.0),topRight:Radius.circular(8.0)),
-              //                    // child:Image.network("https://i.postimg.cc/6TP5DRbr/Mailing.png"),
-              //                    child: Image.asset("images/mail.webp"),
-              //                     ))),flex: 7,),
-              //                      Flexible(child:Row(children: <Widget>[
-              //                                         Flexible(child:  Container(
-              //                                           padding: EdgeInsets.all(3),
-              //                       alignment: Alignment(-0.9, 0),
-              //                                           child:Text(
-              //                                                "Mailing Services",
-              //                                               style: TextStyle(fontWeight: FontWeight.w500),
-              //                                               textAlign:TextAlign.left,
-              //                                             )),flex: 2,),
-              //                                            Flexible(child: Container(
-              //                                                alignment: Alignment(0.9, 0),
-              //                                               padding: EdgeInsets.all(3),
-              //                                               child:Icon(Icons.chevron_right),
+                                width: MediaQuery.of(context).size.width-60,
+                                height: 200,
+                             child: Column(
+                                 mainAxisSize: MainAxisSize.min,
+                                 children: <Widget>[
+                                 Flexible(child:Container(
+                                   padding: EdgeInsets.all(5),
+                                   child:Center(child: ClipRRect(
+               borderRadius: new BorderRadius.only(topLeft:Radius.circular(8.0),topRight:Radius.circular(8.0)),
+                                  // child:Image.network("https://i.postimg.cc/6TP5DRbr/Mailing.png"),
+                                  child: Image.asset("images/mail.webp"),
+                                   ))),flex: 7,),
+                                    Flexible(child:Row(children: <Widget>[
+                                                       Flexible(child:  Container(
+                                                         padding: EdgeInsets.all(3),
+                                     alignment: Alignment(-0.9, 0),
+                                                         child:Text(
+                                                              "Mailing Services",
+                                                             style: TextStyle(fontWeight: FontWeight.w500),
+                                                             textAlign:TextAlign.left,
+                                                           )),flex: 2,),
+                                                          Flexible(child: Container(
+                                                              alignment: Alignment(0.9, 0),
+                                                             padding: EdgeInsets.all(3),
+                                                             child:Icon(Icons.chevron_right),
                                                            
-              //                                             ),flex:1 ,)
-              //                                        ],) ,flex: 2,)
+                                                           ),flex:1 ,)
+                                                      ],) ,flex: 2,)
                                
 
-              //                   ])
+                                 ])
                                 
-              //                   )))),onTap: _mail,
-              //                                           ),
+                                 )))),onTap: _mail,
+                                                         ),
                                 
                                          GestureDetector(child: Container(
                                             padding:EdgeInsets.only(left: 16,right:16,bottom: 16),

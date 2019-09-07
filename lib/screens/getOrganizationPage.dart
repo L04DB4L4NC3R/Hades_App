@@ -8,6 +8,7 @@ import 'package:hade/createOrganisationPage.dart';
 import 'package:hade/screens/joinOrganization.dart';
 import 'package:hade/models/get_Organization.dart';
 import 'package:hade/userDataMangment.dart';
+import 'package:hade/screens/login.dart';
 
 
 class GetOrganizationPage extends StatefulWidget{
@@ -50,12 +51,23 @@ Data _data;
     print(response.statusCode);
   if(response.statusCode==200){
    final data = json.decode(response.body);
-   if(data["message"].compareTo("Successful")==0){
-     _data=Data.fromJson(data["data"]);
-     return _data;
-       }
+   if(data["message"].compareTo("Successful")==0) {
+     if (data["data"]["organizations"] == null) {
+return "yo";
+     }
+     else {
+       _data = Data.fromJson(data["data"]);
+       print(data);
+       s.setOrgList(_data.organization);
+       toHomePage();
+       return _data;
+     }
+   }
   
      }
+  else{
+    return "Server Error";
+  }
    }
  }
      
@@ -68,12 +80,11 @@ toCreate(){
 
 toJoin(){
    Navigator.push(
-        context, MaterialPageRoute(builder: (context) => JoinOrganization()));
+        context, MaterialPageRoute(builder: (context) => JoinOrganization(token)));
 }
  
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return 
  Container(
         color:backgroundColor,
@@ -87,14 +98,28 @@ toJoin(){
               ),
             );
 
+          }else if(snapshot.data=="Server Error"){
+            return Container(
+              child: Center(
+                child: Text(snapshot.data),
+              ),
+            );
           }
-          else{
-             print(snapshot.data);
+          else if(snapshot.data=="yo"){
+
             return Scaffold(
               appBar: AppBar(
                 elevation: 0,
                 centerTitle: true,
-                title: Text("Hades",style: TextStyle(color: Colors.black),),),
+                title: Text("Hades",style: TextStyle(color: Colors.black),),
+              actions: <Widget>[
+//                IconButton(icon: Icon(Icons.check_box_outline_blank),onPressed: (){
+//                  s.setLoginCheck(false);
+//                  Navigator.of(context).popUntil((route) => route.isFirst);
+//                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context) => LoginScreen()));
+//                },)
+              ],
+              ),
               body: Container(
               child:Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -179,6 +204,13 @@ Container(
                 ))
 
               ],)));
+          }
+          else{
+            return Container(
+                child: Center(
+                child: CircularProgressIndicator(),
+          ),
+          );
           }
         }));
   }

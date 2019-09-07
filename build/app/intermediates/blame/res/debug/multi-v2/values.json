@@ -1,46 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\flutter\\hade\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/home/prateek/Data/Flutter Application/hade/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\26ca4a96189475208968c4875d7e5e20\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
-                    },
-                    "to": {
-                        "startLines": "90,100",
-                        "startColumns": "4,4",
-                        "startOffsets": "4540,5718",
-                        "endColumns": "67,166",
-                        "endOffsets": "4603,5880"
-                    }
-                },
-                {
-                    "source": "F:\\flutter\\hade\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
-                        "startLines": "111",
-                        "startColumns": "4",
-                        "startOffsets": "7082",
-                        "endLines": "115",
-                        "endColumns": "12",
-                        "endOffsets": "7374"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a7582520552f14c3d561b8f57cee0dd9\\res\\values\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,53,54,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -59,24 +23,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\38692aa582eac0d826b59c2764a3a3bf\\res\\values\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/res/values/values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,348,414,536,597,663",
-                        "endColumns": "88,70,72,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,343,409,531,592,658,725"
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
                     },
                     "to": {
-                        "startLines": "12,13,15,89,121,123,124,129,131",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "908,997,1126,4480,7697,7873,7995,8257,8452",
-                        "endColumns": "88,70,72,59,65,121,60,65,66",
-                        "endOffsets": "992,1063,1194,4535,7758,7990,8051,8318,8514"
+                        "startLines": "90,100",
+                        "startColumns": "4,4",
+                        "startOffsets": "4540,5718",
+                        "endColumns": "67,166",
+                        "endOffsets": "4603,5880"
                     }
                 },
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9416fe8ef5d06ca18b49661feb478948\\res\\values\\values.xml",
+                    "source": "/home/prateek/Data/Flutter Application/hade/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "353"
+                    },
+                    "to": {
+                        "startLines": "111",
+                        "startColumns": "4",
+                        "startOffsets": "7082",
+                        "endLines": "115",
+                        "endColumns": "12",
+                        "endOffsets": "7374"
+                    }
+                },
+                {
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,33,46,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -92,6 +75,23 @@
                         "endLines": "2,3,4,5,6,7,8,9,42,61,92,93,94,95,96,97,98,99,101,102,103,104,105,106,107,108,109",
                         "endColumns": "89,79,89,89,79,80,79,79,20,20,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
                         "endOffsets": "190,270,360,450,530,611,691,771,2417,2834,4778,4959,5084,5191,5371,5494,5610,5713,6068,6173,6354,6479,6654,6802,6865,6927,7006"
+                    }
+                },
+                {
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,348,414,536,597,663",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,343,409,531,592,658,725"
+                    },
+                    "to": {
+                        "startLines": "12,13,15,89,121,123,124,129,131",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "908,997,1126,4480,7697,7873,7995,8257,8452",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "992,1063,1194,4535,7758,7990,8051,8318,8514"
                     }
                 }
             ]

@@ -6,6 +6,7 @@ import 'package:hade/models/read_attendee.dart';
 import 'package:hade/cards/attendeeCard.dart';
 import 'dart:async';
 import 'dart:convert';
+import 'package:hade/userDataMangment.dart';
 
 class ReadAttendeePage extends StatefulWidget{
 
@@ -37,40 +38,68 @@ class ReadAttendeePage extends StatefulWidget{
 
     _ReadAttendeePage(this.events,this.pos);
     String selectedgender;
+    SharedPreferencesTest s = new SharedPreferencesTest();
 
+    String token = '';
+
+    @override
+    void initState() {
+      super.initState();
+
+      Future<String> tok = s.getToken();
+      tok.then((res) {
+        print(res);
+        setState(() {
+          token = res;
+        });
+      });
+    }
 
 
   @override
   Widget build(BuildContext context) {
-//      var details = {
-//     '"event"': "WomenTechies"
-// }; 
-Map<String, dynamic> body = {
-    "event": "WomenTechies"
-}; 
 
-     String eve=events.name.toString();
-   body["event"] = '$eve';   
-   print(body);
+Map<String, dynamic> body = {
+
+    "event": "Developer 1O1",
+    "day": 0,
+    "query": {
+      "key": "",
+      "value": "",
+      "specific": "DSCVIT"
+    }
+
+};
+
+
+
+
+
 
     Future fetchPosts(http.Client client) async {
- var response=await http.post(URL_ALLPARTICIPANTS, body: json.encode(body));
- 
- final data = json.decode(response.body);
- if(data["error"]==null)
- {
-      print(data['rs'][0]);
-      List<ReadAttendee> products = new List<ReadAttendee>();
+      String eve=events.name.toString();
+      body["event"] = '$eve';
+      print(body);
+if(token!='') {
+  var response = await http.post(
+      URL_ALLPARTICIPANTS, headers: {"Authorization": "$token"},
+      body: json.encode(body));
+
+  final data = json.decode(response.body);
+  if (data["error"] == null) {
+    print(data['rs'][0]);
+    List<ReadAttendee> products = new List<ReadAttendee>();
     for (int i = 0; i < data['rs'].length; i++) {
       products.add(new ReadAttendee.fromJson(data['rs'][i]));
       print(data['rs'][i]);
     }
     print(products[0].name);
     return products;
-  } 
-  else{
+  }
+  else {
     return "No Data to be Fetched";
   }
+}
     }
     
     

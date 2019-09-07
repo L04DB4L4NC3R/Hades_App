@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\flutter\\hade\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "/home/prateek/Data/Flutter Application/hade/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\26ca4a96189475208968c4875d7e5e20\\res\\values-ur\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/res/values-ur/values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "102",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2833",
+                        "endColumns": "102",
+                        "endOffsets": "2931"
+                    }
+                },
+                {
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/a7ccee6a7c3bde79f2715b8da3b243e6/res/values-ur/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9416fe8ef5d06ca18b49661feb478948\\res\\values-ur\\values.xml",
+                    "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ea40f273b9f5500bd51c364b7d6caf52/res/values-ur/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,215,411,539,652,851,980,1122,1466,1677,1789,1992,2122,2327,2526,2619,2716",
                         "endColumns": "109,195,127,112,198,128,141,132,210,111,202,129,204,198,92,96,116",
                         "endOffsets": "210,406,534,647,846,975,1117,1250,1672,1784,1987,2117,2322,2521,2614,2711,2828"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\prateek\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a7582520552f14c3d561b8f57cee0dd9\\res\\values-ur\\values-ur.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "102",
-                        "endOffsets": "153"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2833",
-                        "endColumns": "102",
-                        "endOffsets": "2931"
                     }
                 }
             ]

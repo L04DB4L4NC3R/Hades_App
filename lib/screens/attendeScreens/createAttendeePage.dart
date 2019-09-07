@@ -3,6 +3,7 @@ import 'package:hade/models/readApi.dart';
 import 'package:http/http.dart' as http;
 import 'package:hade/models/global.dart';
 import 'dart:async';
+import 'package:toast/toast.dart';
 import 'dart:convert';
 
 class CreateAttendeePage extends StatefulWidget{
@@ -342,14 +343,15 @@ class CreateAttendeePage extends StatefulWidget{
     
    final data = json.decode(response.body);
       print(data['rs']);
-      //  Fluttertoast.showToast(
-      //   msg: data['rs'].toString(),
-      //   toastLength: Toast.LENGTH_SHORT,
-      //   gravity: ToastGravity.BOTTOM,
-      //   timeInSecForIos: 1,
-      //   backgroundColor: Colors.grey[700],
-      //   textColor: Colors.white);
+      if(data['error']==null) {
+        Toast.show("User Created", context,
+            duration: Toast.LENGTH_LONG, gravity: Toast.BOTTOM);
         _processData();
+      }
+      else{
+        Toast.show("User not created, Try Again", context,
+            duration: Toast.LENGTH_LONG, gravity: Toast.BOTTOM);
+      }
   }
     
      
@@ -368,6 +370,7 @@ class CreateAttendeePage extends StatefulWidget{
 
           }
           else{
+            return Container();
         //     Fluttertoast.showToast(
         // msg: "Check Your Connection",
         // toastLength: Toast.LENGTH_SHORT,

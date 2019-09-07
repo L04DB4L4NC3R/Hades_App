@@ -9,26 +9,26 @@ import 'dart:convert';
 
 
 class EventCard extends StatefulWidget {
-  String name;
+
   String clubname;
   RS events;
   int pos;
 
-  EventCard(this.events,this.pos);
+  EventCard(this.events,this.pos,this.clubname);
 
   @override
   State<StatefulWidget> createState() {
-    return EventCardState(events,pos);
+    return EventCardState(events,pos,clubname);
   }
 }
 
 class EventCardState extends State<EventCard> {
-  String name;
+
   String clubname;
   RS events;
   int pos;
 
-  EventCardState(this.events,this.pos);
+  EventCardState(this.events,this.pos,this.clubname);
 Map<String, dynamic> body ={
     "query": {
         "key": "name",
@@ -86,7 +86,7 @@ Map<String, dynamic> body ={
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) =>EventPage(events,pos),
+                        builder: (context) =>EventPage(events,pos,events.clubName,events.name),
                       ),
                     );
                   },
@@ -144,7 +144,9 @@ Map<String, dynamic> body ={
             );
 
           }
+
           else{
+            return Container();
         //     Fluttertoast.showToast(
         // msg: "Check Your Connection",
         // toastLength: Toast.LENGTH_SHORT,

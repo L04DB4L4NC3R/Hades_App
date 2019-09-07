@@ -26,7 +26,7 @@ class Organization {
 
   factory Organization.fromJson(Map<String, dynamic> json){
     return Organization(
-        fullName: json["fullName"],
+        fullName: json["name"],
         location: json["location"],
         photoUrl: json["tag"],
         description: json["description"],
