@@ -8,6 +8,7 @@ import 'package:qrcode_reader/qrcode_reader.dart';
 import 'package:flutter/services.dart';
 import 'package:hade/models/read_coupon.dart';
 import 'package:hade/models/readApi.dart';
+import 'package:toast/toast.dart';
 
 class MarkScreen extends StatefulWidget {
 
@@ -164,15 +165,22 @@ String email;
    Future _scanQR() async {
      try {
       String qrResult =await  QRCodeReader().scan();
-//       String qrResult = await BarcodeScanner.scan();
+      if(qrResult!=null){
       setState(() {
       print(qrResult);
         _sendToServer(qrResult.toString());
-//_processData(qrResult.toString());
-//        result = qrResult;
+
       });
 
      }
+     
+     else{
+       setState(() {
+         index=2;
+       });
+Toast.show("No QR Scanned", context,
+                duration: Toast.LENGTH_SHORT, gravity: Toast.BOTTOM);
+     }}
 
     catch (ex) {
       setState(() {

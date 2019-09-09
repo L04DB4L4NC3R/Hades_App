@@ -64,17 +64,17 @@ class _EventPage extends State<EventPage> {
               elevation:0.0,
              // backgroundColor: Colors.grey[50],
               actions: <Widget>[
-                IconButton(
-                       icon: Icon(
-                     Icons.person_add,
-                   ),
-                   onPressed: (){
-                      Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => AddExtras(events,pos)),
-  );
-                   },
-                   )
+  //               IconButton(
+  //                      icon: Icon(
+  //                    Icons.person_add,
+  //                  ),
+  //                  onPressed: (){
+  //                     Navigator.push(
+  //   context,
+  //   MaterialPageRoute(builder: (context) => AddExtras(events,pos)),
+  // );
+  //                  },
+  //                  )
                
               ],
               
