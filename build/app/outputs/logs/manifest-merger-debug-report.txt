@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
-MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
-MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:permission] /home/prateek/Data/Hades/Hades_App/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/prateek/Data/Hades/Hades_App/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
+MERGED from [:path_provider] /home/prateek/Data/Hades/Hades_App/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /home/prateek/Data/Hades/Hades_App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-20:12
+MERGED from [:firebase_storage] /home/prateek/Data/Hades/Hades_App/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-auth-17.0.0.aar/5f0584e8cd3553f916992065f246736b/AndroidManifest.xml:17:1-42:12
@@ -39,39 +39,39 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /home/prateek/.gradle/c
 MERGED from [com.android.support:support-compat:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/adce40f2e210ac2765f7077bc0c44ac1/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:2:5-31
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:1-38:12
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:10:10-85
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:10:10-85
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:10:27-82
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:10:27-82
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:11:10-86
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:11:10-86
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:11:27-83
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:11:27-83
 uses-permission#android.permission.INTERNET
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
-MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
-MERGED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:10-72
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:12:10-72
+MERGED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:12:10-72
+MERGED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:12:10-72
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:22:5-67
@@ -83,13 +83,13 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/prateek/.
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/ccc88f0c038336c2fc794fd187116f4b/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:12:27-69
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:12:27-69
 application
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:14:5-37:19
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:14:5-37:19
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-18:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:7:5-20
@@ -141,59 +141,59 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:7:5-20
 	android:label
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:16:9-30
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:16:9-30
 	android:icon
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:17:9-43
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:15:9-57
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:15:9-57
 activity#com.example.hade.MainActivity
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:18:9-36:20
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:18:9-36:20
 	android:launchMode
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:20:13-43
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:20:13-43
 	android:hardwareAccelerated
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:23:13-47
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:23:13-47
 	android:windowSoftInputMode
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:24:13-55
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:24:13-55
 	android:configChanges
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:22:13-144
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:22:13-144
 	android:theme
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:21:13-47
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:21:13-47
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:19:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:29:13-31:40
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:29:13-31:40
 	android:value
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:31:17-37
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:31:17-37
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:30:17-82
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:30:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:32:13-35:29
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:32:13-35:29
 action#android.intent.action.MAIN
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:33:17-68
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:33:17-68
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:33:25-66
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:34:17-76
+ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:34:17-76
 	android:name
-		ADDED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml:34:27-74
 uses-sdk
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:permission] /home/prateek/Data/Flutter Application/hade/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] /home/prateek/Data/Flutter Application/hade/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] /home/prateek/Data/Flutter Application/hade/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/prateek/Data/Flutter Application/hade/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] /home/prateek/Data/Flutter Application/hade/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+MERGED from [:permission] /home/prateek/Data/Hades/Hades_App/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:permission] /home/prateek/Data/Hades/Hades_App/build/permission/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prateek/Data/Hades/Hades_App/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/prateek/Data/Hades/Hades_App/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prateek/Data/Hades/Hades_App/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/prateek/Data/Hades/Hades_App/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/prateek/Data/Hades/Hades_App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/prateek/Data/Hades/Hades_App/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase_storage] /home/prateek/Data/Hades/Hades_App/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/prateek/Data/Hades/Hades_App/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-core:16.0.4] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/0c2dc2e46d5fec7edf3d1a289da3ddfe/AndroidManifest.xml:5:5-44
@@ -248,46 +248,46 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1fad421871fbbfc17708f72f7940073/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/prateek/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/b7fd68071dd6f9f879119f44f5e254b5/AndroidManifest.xml:5:5-44
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:26.1.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/96bd511f7ab703b21e32ccd3d1e74976/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/prateek/Data/Flutter Application/hade/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/prateek/Data/Hades/Hades_App/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
-MERGED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
+ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
+MERGED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-62
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-62
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
+ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-74
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-74
 	android:exported
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-82
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:75
+ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:75
 	android:resource
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-72
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-72
 	android:name
-		ADDED from [:image_picker] /home/prateek/Data/Flutter Application/hade/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
+		ADDED from [:image_picker] /home/prateek/Data/Hades/Hades_App/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
 activity#com.matheusvillela.flutter.plugins.qrcodereader.QRScanActivity
-ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:9-17:63
+ADDED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:9-17:63
 	android:configChanges
-		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-96
+		ADDED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-96
 	android:theme
-		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-60
+		ADDED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-60
 	android:name
-		ADDED from [:qrcode_reader] /home/prateek/Data/Flutter Application/hade/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-90
+		ADDED from [:qrcode_reader] /home/prateek/Data/Hades/Hades_App/build/qrcode_reader/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-90
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-storage-17.0.0.aar/3b630891c8d73854d440beebb3a195c1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/prateek/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/b27f06272f26888d369a62be2c45a88d/AndroidManifest.xml:23:5-79

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/prateek/Data/Flutter Application/hade/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/prateek/Data/Hades/Hades_App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/prateek/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48984c852d5c165b1cbcfc580aa63ff/res/values-v24/values-v24.xml",
