@@ -1,6 +1,6 @@
 name: CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -19,7 +19,6 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           BUILD_SHA: ${{ github.sha }}
       - run: flutter pub get
-      - run: flutter test
       - run: flutter build apk
       - run: chmod +x ./scripts/telegram.sh
       - run: ./scripts/telegram.sh
