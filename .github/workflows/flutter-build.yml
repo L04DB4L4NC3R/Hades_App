@@ -19,6 +19,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           BUILD_SHA: ${{ github.sha }}
       - run: flutter pub get
+      - run: flutter channel beta
       - run: flutter build apk
       - run: chmod +x ./scripts/telegram.sh
       - run: ./scripts/telegram.sh
